@@ -53,7 +53,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.DS.host = 'https://quiet-river-84850.herokuapp.com/';
+    ENV.DS.host = 'https://radiant-crag-90533.herokuapp.com';
   }
 
   return ENV;

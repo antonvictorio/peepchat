@@ -53,7 +53,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.DS.host = 'https://nameless-falls-45512.herokuapp.com/';
+    ENV.DS.host = 'https://frozen-coast-87972.herokuapp.com';
   }
 
   return ENV;

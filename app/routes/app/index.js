@@ -8,7 +8,7 @@ export default Ember.Route.extend({
 
   actions: {
     /* Create a new room */
-    createRoom123() {
+    createRoom() {
       // Get the "new room" model
       let data = this.get('currentModel.newRoom');
       // Create an ember-data record

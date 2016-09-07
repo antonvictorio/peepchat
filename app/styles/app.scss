@@ -1,10 +1,11 @@
 $roboto-font-path: '/assets/';
-@import "materialize";
+
 @import "components/color";
-$primary-color: color('deep-orange', 'darken-2');
+$primary-color: color('white', 'lighten-3');
+@import "materialize";
 
 body {
-  background-color: color('light-blue', 'darken-2');
+  background-color: color('light-blue', 'lighten-1');
 }
 
 .toasts {
@@ -48,4 +49,9 @@ body {
       margin-top: 1.5rem;
     }
   }
+}
+
+.liquid-container {
+  transform: none;
+  -webkit-transform: none;
 }

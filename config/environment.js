@@ -53,7 +53,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.DS.host = 'https://shrouded-coast-35402.herokuapp.com';
+    ENV.DS.host = 'https://frozen-coast-87972.herokuapp.com';
   }
 
   return ENV;
